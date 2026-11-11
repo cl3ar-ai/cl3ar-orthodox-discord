@@ -1,0 +1,11 @@
+{
+  "name": "cl3ar-orthodox-discord",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A quiet, Orthodox Discord in one BetterDiscord plugin",
+  "license": "MIT",
+  "scripts": {
+    "build": "node -e \"require('fs').mkdirSync('dist',{recursive:true})\" && node build.js dist",
+    "test": "node tests/test.js src && node tests/home_test.js && node tests/season_test.js && node tests/sounds_test.js && node tests/sky_test.js && node tests/creatures_test.js && node tests/banner_test.js"
+  }
+}
